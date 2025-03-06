@@ -4,7 +4,7 @@ name := "hello-minart"
 
 version := "1.0"
 
-ThisBuild / scalaVersion := "3.6.3"
+ThisBuild / scalaVersion := "3.6.4"
 
 lazy val root =
   crossProject(JVMPlatform, JSPlatform, NativePlatform)
