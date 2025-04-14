@@ -4,7 +4,7 @@ name := "hello-minart"
 
 version := "1.0"
 
-ThisBuild / scalaVersion := "3.6.3"
+ThisBuild / scalaVersion := "3.6.4"
 
 lazy val root =
   crossProject(JVMPlatform, JSPlatform, NativePlatform)
@@ -13,7 +13,7 @@ lazy val root =
       Seq(
         libraryDependencies ++= List(
           "eu.joaocosta" %%% "minart" % "0.6.2",
-          "dev.zio" %%% "zio-streams" % "2.1.16"
+          "dev.zio" %%% "zio-streams" % "2.1.17"
         )
       )
     )
