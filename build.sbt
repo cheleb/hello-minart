@@ -14,7 +14,7 @@ lazy val root =
         libraryDependencies ++= List(
           "eu.joaocosta" %%% "minart" % "0.6.4",
           "dev.zio" %%% "zio" % "2.1.22",
-          "dev.zio" %%% "zio-streams" % "2.1.21"
+          "dev.zio" %%% "zio-streams" % "2.1.22"
         )
       )
     )
